@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
-import 'dart:ui';
-import 'package:p1/models/contato.dart';
+import 'package:Agenda1/Models/contato.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 

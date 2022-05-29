@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:p1/Helpers/database_helper.dart';
-import 'package:p1/models/contato.dart';
+import 'package:Agenda1/Helpers/database_helper.dart';
+import 'package:Agenda1/models/contato.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);
