@@ -21,10 +21,10 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-//    Contato c= Contato(1,"Alex", "alexjesusbm@gmail.com", "feio.jpg");
-//    db.insertContato(c);
-//    Contato c1= Contato(2,"Pio", "pio@gmail.com", "pio.jpg");
-//    db.insertContato(c1);
+    Contato c = Contato(1, 'Alex', 'alexjesusbm@gmail.com', 'feio.jpg');
+    db.insertContato(c);
+    Contato c1 = Contato(2, 'Pio', 'pio@gmail.com', 'pio.jpg');
+    db.insertContato(c1);
 
     db.getContatos().then((lista) {
       print(lista);
